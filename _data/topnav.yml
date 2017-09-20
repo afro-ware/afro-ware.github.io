@@ -1,0 +1,30 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/afroware
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Communauty
+      folderitems:
+        - title: documentation
+          external_url: https://afroware.github.io/
+        - title: Stack Overflow
+          external_url: #
+        - title: blog
+          external_url: #
+    - title: Projects
+      folderitems:
+        - title: Laravel Rest API
+          url: /restfy_introduction.html
+        - title: Product 1
+          url: /p1_landing_page.html
+        - title: Product 2
+          url: /p2_landing_page.html

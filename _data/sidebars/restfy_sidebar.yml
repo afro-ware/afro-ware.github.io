@@ -1,0 +1,294 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Laravel Rest API
+  version: 1.0.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /restfy_introduction.html
+      output: web, pdf
+
+    - title: Supported features
+      url: /restfy_supported_features.html
+      output: web, pdf
+
+    - title: About the theme author
+      url: /restfy_about.html
+      output: web, pdf
+
+    - title: Support
+      url: /restfy_support.html
+      output: web, pdf
+
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: 6.0 Release notes
+      url: /restfy_release_notes_60.html
+      output: web, pdf
+
+    - title: 5.0 Release notes
+      url: /restfy_release_notes_50.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+
+    - title: About Ruby, Gems, Bundler, etc.
+      url: /restfy_about_ruby_gems_etc.html
+      output: web, pdf
+
+    - title: Install Jekyll on Mac
+      url: /restfy_install_jekyll_on_mac.html
+      output: web, pdf
+
+    - title: Install Jekyll on Windows
+      url: /restfy_install_jekyll_on_windows.html
+      output: web, pdf
+
+  - title: Authoring
+    output: web, pdf
+
+    folderitems:
+    - title: Pages
+      url: /restfy_pages.html
+      output: web, pdf
+
+    - title: Posts
+      url: /restfy_posts.html
+      output: web, pdf
+
+    - title: Lists
+      url: /restfy_lists.html
+      output: web, pdf
+
+    - title: Conditional logic
+      url: /restfy_conditional_logic.html
+      output: web, pdf
+
+    - title: Content reuse
+      url: /restfy_content_reuse.html
+      output: web, pdf
+
+    - title: Collections
+      url: /restfy_collections.html
+      output: web, pdf
+
+    - title: WebStorm editor tips
+      url: /restfy_webstorm_text_editor.html
+      output: web, pdf
+
+    - title: Atom editor tips
+      url: /restfy_atom_text_editor.html
+      output: web, pdf
+
+  - title: Navigation
+    output: web, pdf
+
+    folderitems:
+    - title: Sidebar navigation
+      url: /restfy_sidebar_navigation.html
+      output: web, pdf
+
+    - title: YAML tutorial in the context of Jekyll
+      url: /restfy_yaml_tutorial.html
+      output: web, pdf
+
+    - title: Tags
+      url: /restfy_tags.html
+      output: web, pdf
+
+    - title: Series
+      url: /restfy_series.html
+      output: web, pdf
+
+  - title: Formatting
+    output: web, pdf
+
+    folderitems:
+    - title: Tooltips
+      url: /restfy_adding_tooltips.html
+      output: web, pdf
+
+    - title: Alerts
+      url: /restfy_alerts.html
+      output: web, pdf
+
+    - title: Icons
+      url: /restfy_icons.html
+      output: web, pdf
+
+    - title: Images
+      url: /restfy_images.html
+      output: web, pdf
+
+    - title: Code samples
+      url: /restfy_code_samples.html
+      output: web, pdf
+
+    - title: Labels
+      url: /restfy_labels.html
+      output: web, pdf
+
+    - title: Links
+      url: /restfy_hyperlinks.html
+      output: web, pdf
+
+    - title: Navtabs
+      url: /restfy_navtabs.html
+      output: web, pdf
+
+    - title: Tables
+      url: /restfy_tables.html
+      output: web, pdf
+
+    - title: Syntax highlighting
+      url: /restfy_syntax_highlighting.html
+      output: web, pdf
+
+    - title: Workflow maps
+      url: /restfy_workflow_maps.html
+      output: web, pdf
+
+  - title: Handling reviews
+    output: web, pdf
+
+    folderitems:
+    - title: Commenting on files
+      url: /restfy_commenting_on_files.html
+      output: web, pdf
+
+#    - title: Git collaboration
+#      url: /restfy_git_collaboration
+#      output: web, pdf
+
+  - title: Publishing
+    output: web, pdf
+
+    folderitems:
+    - title: Build arguments
+      url: /restfy_build_arguments.html
+      output: web, pdf
+
+    - title: Themes
+      url: /restfy_themes.html
+      output: web, pdf
+
+    - title: Generating PDFs
+      url: /restfy_generating_pdfs.html
+      output: web, pdf
+
+    - title: Help APIs and UI tooltips
+      url: /restfy_help_api.html
+      output: web, pdf
+
+    - title: Search configuration
+      url: /restfy_search_configuration.html
+      output: web, pdf
+
+    - title: iTerm profiles
+      url: /restfy_iterm_profiles.html
+      output: web, pdf
+
+    - title: Pushing builds to server
+      url: /restfy_push_build_to_server.html
+      output: web, pdf
+
+    - title: Getting around the password prompts in SCP
+      url: /restfy_no_password_prompts_scp.html
+      output: web, pdf
+
+    - title: Publishing on Github Pages
+      url: /restfy_publishing_github_pages.html
+      output: web, pdf
+
+  - title: Special layouts
+    output: web, pdf
+
+    folderitems:
+    - title: Knowledge-base layout
+      url: /restfy_kb_layout.html
+      output: web, pdf
+
+    - title: Glossary layout
+      url: /restfy_glossary.html
+      output: web, pdf
+
+    - title: FAQ layout
+      url: /restfy_faq_layout.html
+      output: web, pdf
+
+    - title: Shuffle layout
+      url: /restfy_shuffle.html
+      output: web, pdf
+
+  - title: Troubleshooting
+    output: web, pdf
+
+    folderitems:
+
+    - title: Troubleshooting
+      url: /restfy_troubleshooting.html
+      output: web, pdf
+
+  - title: Tag archives
+    output: web
+    folderitems:
+
+    - title: Tag archives overview
+      url: /restfy_tag_archives_overview.html
+      output: web
+
+      subfolders:
+      - title: Tag archive pages
+        output: web
+        subfolderitems:
+
+        - title: Formatting pages
+          url: /tag_formatting.html
+          output: web
+
+        - title: Navigation pages
+          url: /tag_navigation.html
+          output: web
+
+        - title: Content types pages
+          url: /tag_content_types.html
+          output: web
+
+        - title: Publishing pages
+          url: /tag_publishing.html
+          output: web
+
+        - title: Special layout pages
+          url: /tag_special_layouts.html
+          output: web
+
+        - title: Collaboration pages
+          url: /tag_collaboration.html
+          output: web
+
+        - title: Troubleshooting pages
+          url: /tag_troubleshooting.html
+          output: web
