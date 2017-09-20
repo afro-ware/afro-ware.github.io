@@ -1,4 +1,4 @@
-theme : gouy
+theme : minima
 repository: afroware/afroware.github.io/
 
 output: web
