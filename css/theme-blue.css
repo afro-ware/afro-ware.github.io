@@ -119,3 +119,7 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #015CAE;
 }
+
+.disqus-footer__wrapper{
+    display: none !important;
+}
